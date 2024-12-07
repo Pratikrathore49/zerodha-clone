@@ -1,0 +1,511 @@
+* {
+    font-family: Arial;
+    margin: 0px;
+    padding: 0px;
+}
+
+#Pages_name ul li {
+    list-style: none;
+
+}
+
+#Pages_name a {
+    text-decoration: none;
+    color: #444444;
+    font-weight: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+#Pages_name ul {
+    display: flex;
+    height: inherit;
+    gap: 48px;
+    font-size: 0.9rem;
+    color: #666666;
+    font-weight: 400;
+}
+
+i {
+    font-size: 1.2rem;
+}
+
+nav {
+    width: 100vw;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    display: flex;
+    position:fixed;
+    justify-content: space-around;
+    height: 67.68px;
+    align-items: center;
+    background-color: #fff;
+    color: #444444;
+    box-shadow: 2px 1px 2px 2px #eee;
+    gap: 20px;
+}
+
+/* ========================== home content part====================== */
+#Home_cont_1_img img {
+    padding-top: 70px;
+    height: 45vh;
+
+}
+
+#Home_cont_1_part1 {
+    color: #424242;
+    font-family: arial;
+    width: 1100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 200px;
+    padding-bottom: 120px;
+}
+
+#Home_cont_1_part1 h1 {
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.75rem;
+    line-height: 1.25;
+    color: #424242;
+    font-weight: 300px;
+
+}
+
+#Home_cont_1_part1 p {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 1.25rem;
+    font-weight: 400px;
+}
+
+#Home_cont_1_part1 button {
+    margin-top: 35px;
+    padding: 10px 30px;
+    font-weight: 500px;
+    font-size: 19.2px;
+    font-weight: 500;
+    background-color: #387ed1;
+    color: #fff;
+    border: none;
+}
+
+#Home_cont_1_part1 button:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+
+/* ======================== content 2====================== */
+#home_cont_2 {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+
+}
+
+#home_cont_2_left h3 {
+    font-size: 20px;
+    color: #424242;
+    font-weight: 500;
+
+
+}
+
+.line {
+    line-height: 1.8;
+}
+
+#home_cont_2_left h2 {
+    color: #424242;
+    font-size: 2rem;
+    font-family: arial;
+}
+
+#home_cont_2_left {
+    font-family: arial;
+    width: 350px;
+    display: flex;
+    font-size: 16px;
+    flex-direction: column;
+    gap: 30px;
+    color: #666666;
+}
+
+#home_cont_2_right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#home_cont_2_right_cont {
+    display: flex;
+    gap: 25px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+#home_cont_2_right_cont a {
+    font-size: 16px;
+    color: #387ed1;
+    font-weight: 500;
+}
+
+#home_cont_2_right img {
+    width: 650px;
+}
+
+/* ===================== block img================= */
+#block_img {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 65px;
+}
+
+/* ================= unbeatable prices ================ */
+#unbeaTable {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 150px;
+
+}
+
+#unbeaTable_left {
+    width: 400px;
+    color: #424242;
+    font-family: arial;
+    font-size: 16px;
+}
+
+#unbeaTable_left a {
+    color: #387ED1;
+    font-weight: 500;
+
+
+}
+
+#unbeaTable_left p {
+    line-height: 1.8;
+    padding-bottom: 25px;
+}
+
+#unbeaTable_left h2 {
+    font-size: 32px;
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+
+#unbeaTable_right {
+    font-size: 10px;
+    font-family: Arial;
+
+    display: flex;
+    gap: 20px;
+}
+
+#unbeaTable_right_div1 {
+    display: flex;
+    align-items: center;
+
+}
+
+#unbeaTable_right_div2 {
+    display: flex;
+    align-items: center;
+}
+
+#unbeaTable_right_div3 {
+    display: flex;
+    align-items: center;
+}
+
+
+/* =========================== versity and Market education ===================================== */
+
+#versity_Market {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 80px;
+}
+
+#Market_edu_cont {
+    line-height: 1.8;
+    width: 528px;
+    color: #424242;
+
+}
+
+#Market_edu_cont h2 {
+    line-height: 1.5;
+    color: #424242;
+    font-size: 2rem;
+}
+
+#Market_edu_cont a {
+    color: #387ed1;
+    font-weight: 500;
+    font-family: arial;
+}
+
+#Market_edu_cont p {
+    margin-bottom: 15px;
+    font-size: 1rem;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+
+/* ========================== Open a Zerodha account ================== */
+#Open_account {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Open_account h2 {
+    padding-top: 50px;
+    font-family: arial;
+    font-size: 2rem;
+    line-height: 1.25;
+    color: #424242;
+    font-weight: 300px;
+}
+
+#Open_account p {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    line-height: 1.8;
+    font-size: 1rem;
+    font-weight: 400px;
+    color: #666666;
+}
+
+#Open_account button {
+    margin-top: 25px;
+    padding: 10px 30px;
+    font-weight: 500px;
+    font-size: 19.2px;
+    font-weight: 500;
+    background-color: #387ed1;
+    color: #fff;
+    border: none;
+}
+
+#Open_account button:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+/* =========================== start footer start =========================== */
+footer{
+    width: 1100px;
+    display: flex;
+    flex-direction: column;
+   margin-left: 230px;
+
+}
+#extra{
+    background-color: #fbfbfb;
+    margin-top: 90px;
+}
+ #footer_cont1{
+  
+    display: flex;
+    justify-content: center;
+    background-color: #fbfbfb;
+    font-family: Arial;
+   
+} 
+#footer_cont1 h3{
+    color:#444444;
+    padding-top: 35px;
+    padding-bottom:10px ;
+  
+}
+#footer_cont1 ul li{
+    cursor: pointer;
+    color:#666666;
+    padding-top: 12px;
+    list-style: none;
+    font-size:16px ;
+}
+#logoName{
+    padding-top: 30px;
+    padding-bottom:15px;
+    
+}
+#footer_cont1_div1{
+    font-size: 12.8px;
+    color:#666666;
+}
+
+hr{
+    box-shadow: 1px solid #eee;
+  
+   height: 0.1px;
+}
+#footer_cont1_div1 i{
+    cursor: pointer;
+    padding-bottom: 15px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+#footer_cont1_div1{
+    padding-right: 100px;
+}
+#footer_cont1_div2{
+    padding-right: 120px;
+}
+#footer_cont1_div3{
+    padding-right:120px;
+}
+
+#footer_cont2{
+padding-top: 50px;
+color:#9B9B9B;
+font-size: 10.4px;
+line-height: 1.8;
+font-family: Arial;
+}
+#footer_cont2 a{
+    cursor: pointer;
+text-decoration: none;
+color:#387ed1;
+}
+
+#list_footer ul{
+    display: flex;
+    gap:15px;
+    padding-left:90px ;
+}
+#list_footer li{
+    list-style: none;
+     font-size: 12px;
+}
+  /* ================= start footer end ========================= */
+
+   /* ================= About section start  ============================= */
+
+   /* ===================  first text h2 ======================== */
+   #About_div1{
+    height: 296.8px;
+   }
+   #About_div1 h2 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 32px;
+    color:#424242;
+   font-weight: 500;
+   border-bottom:  1px solid #eee;
+   
+   }
+    /* ==================== About second text content ======================== */
+    #About_div2{
+        display: flex;
+        justify-content: center;
+         margin-top: 60px;
+        font-size: 16px;
+        line-height: 1.8;
+        text-align: start;
+        font-family: Arial;
+        color:#424242;
+    }
+    #About_div2_text1{
+        width: 432px;
+    }
+    #About_div2_text2{
+        width: 432px;
+        padding-left: 40px;
+        padding-bottom: 80px;
+
+    }
+    #About_div2_text2 a{
+        text-decoration: none;
+        color: #387ed1;
+    }
+
+    /* ======================== people ============================ */
+    #people h2{
+        font-size: 2rem;
+        text-align: center;
+        font-weight: 500;
+        margin-top: 50px;
+    }
+
+    /* ======================== text image founder of company =========================== */
+   
+    #textandimg{
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+        line-height: 1.8;
+        gap: 50px;
+        font-weight: 500;
+        color: #424242;
+        text-align: start;
+    }
+    
+ 
+    #textandimg_div1{
+    width: 350px;
+    text-align: center;
+    font-size: 14.4px;
+   
+   }
+   #textandimg_div1 h5{
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   }
+   #textandimg_div1 img{
+        border-radius: 50%;
+        height: 295px;
+    }
+    #textandimg_div2{
+        width: 514px;
+    }
+    #textandimg_div2 a{
+        text-decoration: none;
+        color: #387ed1;
+        padding-left: 3px;
+    }
+
+ /* ========================= Last All Images of CEO and Co-founder ==================== */
+ #Bodylast_sec{
+    width: 70%vw;
+    display: flex;
+    justify-content: center;
+    
+ }
+
+
+
+
+
+ .CompanyEmployee{
+    width: 350px;
+    text-align: center;
+    font-size: 14.4px;
+   
+   }
+   .CompanyEmployee h5{
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   }
+   .CompanyEmployee img{
+        border-radius: 50%;
+        height: 237.33px;
+    }
