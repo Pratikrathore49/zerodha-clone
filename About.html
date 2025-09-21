@@ -1,175 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>About Zerodha</title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <title>About</title>
-</head>
-
-<body>
-    <header>
-
-        <nav>
-            <div id="logoName"> <img src="./logo.svg" width="130px"></div>
-            <div id="Pages_name">
-                <ul>
-                    <li><a href='#'>Signup </a></li>
-                    <li><a href='#'>About </a></li>
-                    <li><a href='#'>Product </a></li>
-                    <li><a href='#'>Pricing </a></li>
-                    <li><a href='#'> Support </a></li>
-                    <i class="fa-solid fa-bars"></i>
-                </ul>
-            </div>
-        </nav>
+  <body class="font-sans text-gray-800">
+    <!-- ================= Header ================= -->
+    <header class="border-b">
+      <nav class="flex items-center justify-between px-12 py-4">
+        <div id="logoName">
+          <img src="./images/logo.svg" width="130px" />
+        </div>
+        <div id="Pages_name">
+          <ul class="flex items-center space-x-8">
+            <li><a href="index.html" class="hover:text-blue-600">Home</a></li>
+            <li><a href="#" class="hover:text-blue-600">About</a></li>
+            <li><a href="#" class="hover:text-blue-600">Product</a></li>
+            <li><a href="#" class="hover:text-blue-600">Pricing</a></li>
+            <li><a href="#" class="hover:text-blue-600">Support</a></li>
+            <i class="fa-solid fa-bars cursor-pointer"></i>
+          </ul>
+        </div>
+      </nav>
     </header>
 
-    <body>
-        <div id="About_div1">
-            <h2>We pioneered the discount broking model in India.<br>
-                Now, we are breaking ground with our technology.
-            </h2>
+    <!-- ================= About Page Content ================= -->
+    <section class="px-24 py-16">
+      <h1 class="text-4xl font-semibold mb-6">About Zerodha</h1>
+      <p class="text-lg mb-4 max-w-3xl">
+        Zerodha is India’s largest stock broker offering retail and institutional broking, 
+        investment, and trading services. We are known for transparent pricing, 
+        powerful platforms, and a focus on customer-first principles.
+      </p>
+      <p class="text-lg max-w-3xl">
+        Founded in 2010, Zerodha has disrupted the brokerage industry by introducing
+        low-cost, technology-driven trading solutions. Today, we serve millions of 
+        investors and traders across the country.
+      </p>
+    </section>
+
+    <!-- ================= Team Section ================= -->
+    <section class="px-24 py-16 bg-gray-50">
+      <h2 class="text-2xl font-semibold mb-8">Our Team</h2>
+      <div class="flex justify-between space-x-8">
+        <div class="flex flex-col items-center text-center w-[30%] space-y-2">
+          <img src="./images/founder1.jpg" alt="Founder 1" class="w-40 h-40 rounded-full object-cover" />
+          <h3 class="font-medium">Nithin Kamath</h3>
+          <p class="text-sm text-gray-600">Founder & CEO</p>
         </div>
-
-        <!-- ========================== second text content ============================ -->
-
-
-
-        <div id="About_div2">
-            <div>
-                <p id="About_div2_text1">
-                    We kick-started operations on the 15th of August, 2010 with the goal of breaking all barriers that
-                    traders and investors face in India in terms of cost, support, and technology. We named the company
-                    Zerodha, a combination of Zero and "Rodha", the Sanskrit word for barrier.<br><br>
-
-                    Today, our disruptive pricing models and in-house technology have made us the biggest stock broker
-                    in India.<br><br>
-
-                    Over 1+ Crore clients place millions of orders every day through our powerful ecosystem of
-                    investment platforms, contributing over 15% of all Indian retail trading volumes.
-                </p>
-
-            </div>
-            <div>
-                <p id="About_div2_text2">
-                    In addition, we run a number of popular open online educational and community initiatives to empower
-                    retail traders and investors.<br><br>
-
-                    <a href="#">Rainmatter</a>, our fintech fund and incubator, has invested in several fintech startups
-                    with the goal
-                    of growing the Indian capital markets.<br><br>
-
-                    And yet, we are always up to something new every day. Catch up on the latest updates on our <a
-                        href="#"> blog</a> or
-                    see what the media is <a href="#"> saying about us.</a><br><br>
-                </p>
-
-            </div>
+        <div class="flex flex-col items-center text-center w-[30%] space-y-2">
+          <img src="./images/founder2.jpg" alt="Founder 2" class="w-40 h-40 rounded-full object-cover" />
+          <h3 class="font-medium">Nikhil Kamath</h3>
+          <p class="text-sm text-gray-600">Co-Founder</p>
         </div>
-        <!-- ========================== people ====================== -->
-
-        <div id="people">
-            <h2> People</h2>
+        <div class="flex flex-col items-center text-center w-[30%] space-y-2">
+          <img src="./images/founder3.jpg" alt="Founder 3" class="w-40 h-40 rounded-full object-cover" />
+          <h3 class="font-medium">Kailash Nadh</h3>
+          <p class="text-sm text-gray-600">CTO</p>
         </div>
+      </div>
+    </section>
 
+    <!-- ================= Vision / Mission ================= -->
+    <section class="px-24 py-16">
+      <h2 class="text-2xl font-semibold mb-6">Our Mission</h2>
+      <p class="text-lg max-w-3xl mb-4">
+        To democratize trading and investing in India by leveraging technology, 
+        lowering costs, and providing education to every retail investor.
+      </p>
+      <p class="text-lg max-w-3xl">
+        We are committed to building a sustainable ecosystem that empowers 
+        individuals to make smarter financial decisions.
+      </p>
+    </section>
 
-        <!-- ========================== text and image ==================  -->
-        <div id="textandimg">
-            <div id="textandimg_div1">
-                <img src="./text&img_nithin-kamath.jpg" alt="text&img_nithin-kamath">
-                <h5> Nithin Kamath</h5>
-                <p>Founder, CEO</p>
-
-
-
+    <!-- ================= Footer ================= -->
+    <div id="extra" class="bg-gray-50 border-t">
+      <footer class="px-24 py-12 text-sm leading-relaxed">
+        <div class="flex justify-between mb-12">
+          <div class="w-[25%] space-y-4">
+            <div id="logoName">
+              <img src="./images/logo.svg" width="130px" />
             </div>
-            <div id="textandimg_div2">
-                <p>Nithin bootstrapped and founded Zerodha in 2010 to overcome the hurdles he faced during his decade
-                    long stint as a trader. Today, Zerodha has changed the landscape of the Indian broking
-                    industry.<br><br>
-
-                    He is a member of the SEBI Secondary Market Advisory Committee (SMAC) and the Market Data Advisory
-                    Committee (MDAC).<br><br>
-
-                    Playing basketball is his zen.<br>
-
-                    Connect on<a href="#">Homepage</a> / <a href="#">TradingQnA</a> / <a href="#">Twitter</a></p>
-                <br><br>
-
+            <p>© 2010 - 2024, Zerodha Broking Ltd.<br />All rights reserved</p>
+            <div class="flex space-x-4 text-lg">
+              <i class="fa-brands fa-x-twitter"></i>
+              <i class="fa-brands fa-square-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-linkedin-in"></i>
             </div>
+          </div>
+
+          <div>
+            <h3 class="font-semibold mb-2">Company</h3>
+            <ul class="space-y-2">
+              <li>About</li>
+              <li>Products</li>
+              <li>Pricing</li>
+              <li>Careers</li>
+              <li>Press & media</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="font-semibold mb-2">Support</h3>
+            <ul class="space-y-2">
+              <li>Contact us</li>
+              <li>Support portal</li>
+              <li>Z-Connect blog</li>
+              <li>Downloads</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="font-semibold mb-2">Account</h3>
+            <ul class="space-y-2">
+              <li>Open an account</li>
+              <li>Fund transfer</li>
+            </ul>
+          </div>
         </div>
-
-        <!-- ========================= Last All Images of CEO and Co-founder ====================  -->
-
-        <div id="Bodylast_sec">
-
-            <div class="CompanyEmployee">
-                <img src="./1bodylast_sec_Nikhil.jpg" alt="">
-                <h5> Nikhil Kamath</h5>
-                <p>Co-founder & CFO</p>
-            </div>
-
-            <div class="CompanyEmployee">
-                <img src="./2bodylast_sec_Kailash.jpg" alt="">
-                <h5>Dr. Kailash Nadh</h5>
-                <p>CTO</p>
-
-            </div>
-
-
-            <div class="CompanyEmployee">
-                <img src="" alt="">
-                <h5></h5>
-                <p></p>
-
-            </div>
-            
-            <div class="CompanyEmployee">
-                <img src="" alt="">
-                <h5></h5>
-                <p></p>
-
-            </div>
-
-            <div class="CompanyEmployee">
-                <img src="" alt="">
-                <h5></h5>
-                <p></p>
-
-            </div>
-
-            <div class="CompanyEmployee">
-                <img src="" alt="">
-                <h5></h5>
-                <p></p>
-
-            </div>
-
-            <div class="CompanyEmployee">
-                <img src="" alt="">
-                <h5></h5>
-                <p></p>
-
-            </div>
-
-
-
-
-
-
-        </div>
-
-
-
-
-
-
-    </body>
-
+      </footer>
+    </div>
+  </body>
 </html>
